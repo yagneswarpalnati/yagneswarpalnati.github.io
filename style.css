@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: rebeccapurple;
+    text-align: center;
+    
+}
+
+.top h1{
+    padding-top: 10px;
+    color:plum;
+    padding-bottom: 10px;
+}
+
+.gameContainer{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #FEFCF3;
+}
+
+.container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    
+}
+.box{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15vb;
+    cursor: pointer;
+}
+
+.box:hover
+{
+    background-color: #FFD4D4;
+}
+
+.bt{
+    border-top: 0;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+.bl{
+    border-left: 0;
+}
+
+.br{
+    border-right: 0;
+}
+
+.gameInfo{
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: gold;
+    font-family: 'Instrument Serif', serif;
+}
+
+button{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F2E3DB;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bottom{
+    margin-top: 20px;
+    background-color: gold;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 9000;
+    font-size: 25px;
+    position: relative;
+}
+
+.tureset{
+    background-color: gold;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    font-family: 'Castoro Titling', cursive;
+
+}
+
